@@ -1,5 +1,6 @@
 package com.sbs.exam.board;
 
+import java.text.BreakIterator;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -20,14 +21,16 @@ public class Main {
 
             if(cmss.equals("exit")) {
                 System.out.println("프로그램을 종료합니다");
+            break;
             }
 
         }
 
 
-      //  System.out.println("프로그램 종료");
 
-      //  sc.close();
+
+
+      sc.close();
 
         }
     }
